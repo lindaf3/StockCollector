@@ -1,5 +1,6 @@
 # StockCollector
- Returns today's stock values for a given company symbol. 
+ Returns today's stock values for a given company symbol.\
+ Built with requests.py (Third-Party Library) and RapidAPI's Yahoo Finance API
  
  # How It Works
  1) The user is prompted to input a company stock's symbol.
@@ -8,7 +9,7 @@
  4) If the most recent day's stock data's day is not the same date as today, the application will notify the user that no stocks for their company symbol has been traded today.
  5) If the most recent day's stock data's day is the same date as today, the application will notify the user of today's open, high, low, and close stock values for the company that the user had specified in their symbol.
  
- **Note About Valid Stock Symbols** : The application treats the user's input as not case-sensitive (i.e. for ISRG, inputs such as "iSRG", "isrg", "iSrG" are seen as valid and equivalent) 
+ **Note About Valid Stock Symbols** : The application treats the user's input as not case-sensitive (i.e. for ISRG, inputs such as "iSRG", "isrg", "iSrG" are seen as valid and equivalent).
  
  # Walkthrough Gifs
  Incorrect Stock Symbols + ISRG Stocks on 1/10/2021 (no stocks traded day)\
