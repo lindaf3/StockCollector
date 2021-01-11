@@ -8,5 +8,5 @@
  <img src ="walkthroughNoStocks.gif" width=600> <br>
  
  ISRG Stocks on 1/11/2021 (stocks traded day)\
-<img src="walkthroughStocks.gif" width=600><br>
+<img src="walkthroughStocks.gif" width=1000><br>
 
