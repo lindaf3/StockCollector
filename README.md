@@ -18,6 +18,6 @@
 <img src="walkthroughStocks.gif" width=1000><br>
 
 # Notes
--See requirements.txt for a list of tools that help built this application. 
+-See requirements.txt for a list of tools that help built this application.\
 -See yahoo_stocks_info.py for more information on the application's implementation via comments
 
