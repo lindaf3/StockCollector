@@ -2,9 +2,9 @@ Langauge:
 -Python 3.8
 
 API:
--RapidApi Yahoo Finance API 
+-RapidAPI Yahoo Finance API 
 
 Third Party Libraries:
--Requests 2.25.1 (HTTP Library)
+-requests 2.25.1 (HTTP Library)
 
 
