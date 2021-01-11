@@ -19,5 +19,5 @@
 
 # Notes
 -See requirements.txt for a list of tools that help built this application.\
--See yahoo_stocks_info.py for more information on the application's implementation via comments
+-See yahoo_stocks_info.py for more information on the application's implementation via comments.
 
