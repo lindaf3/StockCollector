@@ -1,6 +1,6 @@
 # StockCollector
  Returns today's stock values for a given company symbol.\
- Built with requests.py (Third-Party Library) and RapidAPI's Yahoo Finance API
+ Built with requests.py (Third-Party Library) and RapidAPI's Yahoo Finance API.
  
  # How It Works
  1) The user is prompted to input a company stock's symbol.
