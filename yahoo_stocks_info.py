@@ -9,6 +9,9 @@ import time
 import json
 
 
+file = open("secret.txt","r+")
+SECRET = file.readline()
+file.close()
 
 def get_data(symbol: str):
     ''' Takes the symbol of the stock to request the most recent stock data for the given symbol from the RapidAPI Yahoo-Finance API'''
@@ -16,7 +19,7 @@ def get_data(symbol: str):
     sym = symbol
     #Constant required parameters
     base_url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v3/get-historical-data"
-    required = {    'x-rapidapi-key': "883f54a2eemshc4d6fd4695f96aap1cf784jsn76c6b3c90387",
+    required = {    'x-rapidapi-key': "SECRET",
                     'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"}
     while True:
         try:
