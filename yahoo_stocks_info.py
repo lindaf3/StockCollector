@@ -19,7 +19,7 @@ def get_data(symbol: str):
     sym = symbol
     #Constant required parameters
     base_url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v3/get-historical-data"
-    required = {    'x-rapidapi-key': "SECRET",
+    required = {    'x-rapidapi-key': SECRET,
                     'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"}
     while True:
         try:
